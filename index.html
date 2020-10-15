@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cube slider</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="imgBx">
+            <img src="1.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>ronaldo <br><span>player</span></h3>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="imgBx">
+            <img src="2.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>ronaldo <br><span>player</span></h3>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="imgBx">
+            <img src="3.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>ronaldo <br><span>player</span></h3>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="imgBx">
+            <img src="4.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>ronaldo <br><span>player</span></h3>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="imgBx">
+            <img src="5.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>ronaldo <br><span>player</span></h3>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="imgBx">
+            <img src="6.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>ronaldo <br><span>player</span></h3>
+        </div>
+      </div>
+      </div>
+  </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+      effect: 'cube',
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      }
+    });
+    </script>
+</body>
+</html>
